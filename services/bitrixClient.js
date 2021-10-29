@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const bitrixClient = axios.create({
-    baseURL: 'https://ibuild.bitrix24.com.br/rest/108/s01u2sxpt4nih11o/crm.deal.add.json',
+    baseURL: '',
     timeout: 5000,
     headers: {
         // 'X-Requested-With': 'XMLHttpRequest',
@@ -12,7 +12,7 @@ const bitrixClient = axios.create({
 
 export const createLead = (lead) => {
     return bitrixClient({
-        url: 'https://ibuild.bitrix24.com.br/rest/108/s01u2sxpt4nih11o/crm.deal.add.json',
+        url: '',
         method: 'post',
         params: lead,
     })
