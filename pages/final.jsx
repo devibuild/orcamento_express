@@ -185,9 +185,9 @@ const Final = () => {
                 >
                     <Button
                         fontWeight='600'
-                    // onClick={() => router.push('/recursos')}
-                    >
-                        QUERO VER A PROPOSTA DETALHADA
+                    onClick={() => router.push('https://b24-xv19hp.bitrix24.site/')}
+                        >
+                            QUERO SABER MAIS
                     </Button>
                     {/* <LogoMedium src='/images/Logo.svg' /> */}
                 </Flex>
