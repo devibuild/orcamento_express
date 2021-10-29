@@ -720,7 +720,8 @@ const Simular = () => {
                     fullScreen
                     items={items}
                     page='simular'
-                    lastSlideAction={() => router.push('/cadastro')}
+                    //lastSlideAction={() => router.push('/cadastro')}
+                    lastSlideAction={() => router.push('/final')}
                 />
             </>
         )
@@ -741,7 +742,8 @@ const Simular = () => {
             <Carousel
                 items={items}
                 page='simular'
-                lastSlideAction={() => router.push('/cadastro')}
+                //lastSlideAction={() => router.push('/cadastro')}
+                lastSlideAction={() => router.push('/final')}
             />
         </Flex>
     )
